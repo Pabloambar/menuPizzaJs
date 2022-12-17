@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/style.css">
+    <title>E2-Js</title>
+</head>
+<body>
+
+    <div class="carta" id="carta">
+        <div class="cont__pizz"><div class="img__pizz"><img src="./assets/imagenes/Palmitos.jpg" alt=""><span>Nº1</span></div></div>
+        <div class="cont__pizz"><div class="img__pizz"><img src="./assets/imagenes/Fugazzeta.jpg" alt=""><span>Nº2</span></div></div>
+        <div class="cont__pizz"><div class="img__pizz"><img src="./assets/imagenes/Rucula.jpg" alt=""><span>Nº3</span></div></div>
+        <div class="cont__pizz"><div class="img__pizz"><img src="./assets/imagenes/Cuatro Quesos.jpg" alt=""><span>Nº4</span></div></div>
+        <div class="cont__pizz"><div class="img__pizz"><img src="./assets/imagenes/Napolitana.jpg" alt=""><span>Nº5</span></div></div>
+        <div class="cont__pizz"><div class="img__pizz"><img src="./assets/imagenes/Pepperoni.jpg" alt=""><span>Nº6</span></div></div>
+        <div class="cont__pizz"><div class="img__pizz"><img src="./assets/imagenes/Carbonara.jpg" alt=""><span>Nº7</span></div></div>
+    </div>
+    <main id="cont">
+        <div class="cont__1" id="contI">
+            <form class="form__pizza" id="form">
+            <p>Seleccione su Pizza</p>
+            <div class="inp">
+                <p>Nº:</p>
+                <input
+                type="number"
+                class="form__input"
+                id="numberPizza"
+                autocomplete="off"
+                
+            />
+            </div>
+            <button class="btn__buscar" id="btn__buscar">Buscar</button>
+            </form>
+        </div>
+        <div class="cont__2" id="contII">
+            <h2 id="pizza"></h2>
+            <h3 id="precio"><span></h3></div>
+        </div>
+        <div class="imgPizza" id="imgPizza"></div>
+        <button class="btn__nueva__pizza" id="btn__nueva__pizza">Buscar nueva Pizza</button>
+
+
+    </main>
+
+    <script src="./assets/main.js"></script>
+</body>
+</html>
