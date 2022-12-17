@@ -52,6 +52,12 @@ main p{
     gap: 30px;
 }
 
+@media (max-width:500px){
+    .carta{
+        display: none;
+    }
+}
+
 .cont__pizz{
     display: flex;
     background-color: rgba(137, 43, 226, 0.329);
